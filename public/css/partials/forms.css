@@ -30,7 +30,7 @@
   position: relative;
 }
 
-.input-block:focus-within::after{
+.input-block:focus-within::after {
   content: "";
   width: calc(100% - 3.2rem);
   height: 2px;
@@ -40,7 +40,7 @@
   bottom: 0;
 }
 
-.textarea-block:focus-within::after{
+.textarea-block:focus-within::after {
   content: "";
   width: calc(100% - 3.2rem);
   height: 2px;
@@ -51,3 +51,8 @@
   top: 19rem;
 }
 
+label small {
+  font-size: 1.2rem;
+  padding-left: 1.2rem;
+  color: var(--color-small-info);
+}
